@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no,email=no"/>
     <link rel="stylesheet" href="./assets/css/Reset.css">
-    <link rel="stylesheet" href="./assets/css/index/index.css">
+    <!-- 其中 media 是媒体查询的范围，当最大宽度是1200，这里就是手机平板一下的尺寸 加载手机css ，反之电脑css -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/index/m_index.css" media="screen and (max-width:960px)"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/index/p_index.css" media="screen and (min-width: 961px)"/>
     <title>主页</title>
 </head>
 <body>
